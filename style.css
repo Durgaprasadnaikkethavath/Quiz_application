@@ -1,72 +1,76 @@
-/* styles.css */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+* {
+  padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .quiz-container {
-  background: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  width: 300px;
+  background-color: #f0f0f0;
+  height: 100vh;
 }
 
 .quiz-header {
+  /* background-color: #943737f3; */
+  padding: 20px;
+  text-align: center;
+  font-size: 2.5rem;
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-around;
 }
 
-#question {
-  font-size: 1.2em;
-  margin-bottom: 20px;
+#question-number {
+  font-size: 2rem;
+  text-align: center;
+  background-color: rgb(223, 223, 223);
+  /* color: white; */
+  padding: 20px;
+}
+
+.ques {
+  /* background-color: #fff; */
+  padding: 20px;
+  font-size: 30px;
+  /* background-color: #dcdcdc; */
 }
 
 #options button {
-  display: block;
+  padding: 15px;
+  display: flex;
   width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
+
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+  border-radius: 5px;
+  /* background-color: #dcdcdc; */
   background: #007bff;
+  font-size: 14px;
+  cursor: pointer;
   color: white;
   border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background 0.3s;
 }
 
+#options {
+  margin: 20px 40px 0px 40px;
+}
 #options button:hover {
-  background: #0056b3;
+  background-color: #0055b1;
 }
 
 #submit-btn {
-  background: #28a745;
+  background-color: green;
+  padding: 10px;
+  text-align: center;
   color: white;
-  border: none;
-  padding: 10px 20px;
+  /* margin: 0 70px 0 70px; */
+  margin: 5px 50px 0 70px;
+  border-radius: 10px;
   cursor: pointer;
-  border-radius: 4px;
-  transition: background 0.3s;
-}
-
-#submit-btn:hover {
-  background: #218838;
 }
 
 #feedback {
-  margin-top: 20px;
-  font-size: 1em;
-  font-weight: bold;
-}
-
-.disabled {
-  background: #ddd;
-  cursor: not-allowed;
+  /* background-color: #fff; */
+  padding: 10px;
+  text-align: center;
 }

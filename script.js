@@ -1,28 +1,55 @@
 const quizData = [
   {
-    question: "What is the capital of France?",
-    options: ["Paris", "London", "Berlin", "Madrid"],
-    correct: "Paris",
+    question: "Q:1 Which type of JavaScript language is ___",
+    options: ["object", "Object-Based", "Berlin", "Madrid"],
+    correct: "Object-Based",
   },
   {
-    question: "What is 2 + 2?",
+    question: "Q:2  What is 2 + 2?",
     options: ["3", "4", "5", "6"],
     correct: "4",
   },
   {
-    question: "What is the capital of Spain?",
+    question: "Q:3 What is the capital of Spain?",
     options: ["Madrid", "Paris", "Rome", "Berlin"],
     correct: "Madrid",
   },
   {
-    question: "What is the capital of Germany?",
+    question: "Q:4 What is the capital of Germany?",
     options: ["Berlin", "Paris", "Rome", "Madrid"],
     correct: "Berlin",
   },
   {
-    question: "What is the capital of Italy?",
+    question: "Q:5 What is the capital of Italy?",
     options: ["Rome", "Paris", "Berlin", "Madrid"],
     correct: "Rome",
+  },
+  {
+    question:
+      "Q:6 Can be redeclare a variable that is declared with var keyword?",
+    options: ["Yes", "No"],
+    correct: "Yes",
+  },
+  {
+    question:
+      "Q:7 How many keywords are there in JavaScript to declare variables or constants",
+    options: ["1", "2", "3", "4"],
+    correct: "3",
+  },
+  {
+    question: "Q:8 In JavaScript, single line comment begins with ___.",
+    options: ["#", "/*", "$", "//"],
+    correct: "//",
+  },
+  {
+    question: "Q:9 avaScript ignores?",
+    options: ["newlines", "tabs", "spaces", "All"],
+    correct: "All",
+  },
+  {
+    question: "Q:10   JavaScript is the programming language of the _____.",
+    options: ["Desktop", "Mobile", "Web", "Server"],
+    correct: "Web",
   },
 ];
 
